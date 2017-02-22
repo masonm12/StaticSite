@@ -1,0 +1,119 @@
+body{
+	background: #222222 url(../images/clouds.jpg) fixed;
+	font-family: "comic sans ms", arial, sans-serif;
+	text-align: justify;
+}
+
+a{
+	color: #ffff66;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#container{
+	width: 1000px;
+	height: 600px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+#intro{
+	background: #ff6666 url(../images/banner.png) no-repeat top right;
+	padding: 5px;
+	padding-top: 70px;
+	margin: 0px;
+	border: dashed 10px #66ff66;
+	width: 970px;
+	float: left;
+}
+
+#pageHeader{
+	font-family: cursive;
+}
+
+#pageHeader h1{
+	display: none;
+}
+
+#preamble{
+	float: right;
+	width: 700px;
+}
+
+#supportingText{
+	background: #66ff66;
+	padding: 5px;
+	margin: 0px;
+	border: dashed 10px #ff6666;
+	border-top: none;
+	width: 690px;
+	float: left;
+}
+
+#supportingText a{
+	color: #ff6666
+}
+
+#linkList{
+	float: left;
+	background: #6666ff;
+	width: 260px;
+	padding: 5px;
+	border: dashed 10px #ff6666;
+	margin: 0px;
+	border-top: none;
+	border-left: none;
+}
+
+#linkList ul{
+	list-style-image: url(../images/mushroom.png);
+	padding-left: 20px;
+	margin: 5px;
+}
+
+#linkList li:hover{
+	list-style-image: url(../images/yoshi.png);
+}
+
+#linkList #lselect a{
+	display: block;
+	margin: 0px;
+	font-size: 16pt;
+}
+
+#linkList #lselect a.c{
+	display: inline;
+	font-size: 12pt;
+	padding-bottom: 200px;
+}
+
+#extraDiv1{
+	position: absolute;
+	width: 256px;
+	height: 256px;
+	background: url(../images/mario.png);
+	top: 250px;
+	left: 150px;
+}
+
+#extraDiv2{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	background: url(../images/ghosts.png) repeat-x;
+	height: 23px;
+	width: 100%;
+	top: 1400px;
+}
+
+#extraDiv3{
+	position: absolute;
+	width: 256px;
+	height: 256px;
+	background: url(../images/pit.png);
+	top: 1500px;
+	left: 900px;
+}

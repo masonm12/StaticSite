@@ -1,0 +1,172 @@
+html {
+	height: 100%;
+	margin-bottom: 1px;
+}
+
+body{
+	font-family: arial, sans-serif;
+	background: #101010;
+	color: #ffffff;
+}
+
+h1{
+	font-size: 18pt;
+	margin: 0px 0px 0px 5px;
+	padding: 0px;
+}
+
+h2{
+	font-size: 15pt;
+	margin: 0px 0px 0px 5px;
+	padding: 0px;
+}
+
+h4{
+	margin: 0px 0px 0px 5px;
+	padding: 0px;
+	font-size: 10pt;
+}
+
+ul{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+li{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: #ff9900;
+}
+a:hover{
+	text-decoration: underline;
+}
+a img{
+	border: 0px;
+}
+
+#page{
+	background: #242424;
+	width: 902px;
+	margin: 10px auto;
+	padding: 0px 0px 0px 0px;
+	border: 1px solid #999999;
+}
+
+#body{
+	float: left;
+	width: 632px;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+
+#newold{
+	width: 600px;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#header{
+	width: 880px;
+	height: 150px;
+	margin: 10px auto 0px auto;
+	padding: 0px;
+	border: 1px solid #999999;
+	background: #000000;
+}
+
+#sidebar{
+	float: left;
+	width: 270px;
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+}
+
+#footer{
+	text-align: center;
+	color: #ffffff;
+	width: 860px;
+	clear: both;
+	border: 1px solid #999999;
+	background: #37353b;
+	margin: 0px 0px 10px 10px;
+	padding: 10px 10px 10px 10px;
+}
+
+.msu{
+	color: #006633;
+	font-weight: bold;
+}
+
+.sidebox{
+	float: left;
+	width: 248px;
+	padding: 5px;
+	margin: 10px 0px 0px 0px;
+	border: 1px solid #999999;
+	background: #37353b;
+}
+
+.sidebox p{
+	padding: 0px;
+	margin: 0px 5px 0px 25px;
+}
+
+.sidebox .buttons{
+	padding: 0px;
+	margin: 5px 0px 0px 5px;
+}
+
+.article{
+	padding: 5px 5px 5px 5px;
+	margin: 10px 0px 0px 10px;
+	width: 600px;
+	border: 1px solid #999999;
+	text-align: justify;
+	background: #37353b;
+}
+
+.article p{
+	padding: 0px;
+	margin: 0px 5px 5px 5px;
+}
+
+.article h2{
+	padding: 0px;
+	margin: 0px 5px 5px 5px;
+	font-weight: bold;
+}
+
+.comment{
+	padding: 5px 5px 5px 5px;
+	margin: 10px 0px 0px 30px;
+	width: 580px;
+	border: 1px solid #999999;
+	text-align: justify;
+	background: #37353b;
+}
+
+.comment p{
+	padding: 0px;
+	margin: 0px 5px 5px 5px;
+}
+
+.entries{
+	width: 612px;
+	height: 20px;
+	padding: 0px;
+	margin: 10px 0px 0px 10px;
+}
+
+.previousentry{
+	float: left;
+}
+
+.nextentry{
+	float: right;
+	text-align: right;
+}

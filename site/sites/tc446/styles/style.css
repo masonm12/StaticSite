@@ -1,0 +1,123 @@
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #ffcc00;
+}
+
+a:hover{
+	text-decoration: underline;
+	background: #ff6633;
+	color: #ffffff;
+}
+
+img{
+	border: 0px;
+}
+
+body{
+	font-family: arial;
+	margin: 0px;
+	padding: 0px;
+	background: #cccccc;
+}
+
+#page{
+	margin: auto;
+	width: 800px;
+}
+
+#header{
+	color: #ffffff;
+	background: #336699;
+	text-align: center;
+	font-size: 30pt;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	width: 800px;
+	border: solid black 1px;
+}
+
+#body{
+	margin: 5px;
+	padding: 0px;
+	width: 550px;
+	float: left;
+	background: #336699;
+	border: solid black 1px;
+}
+
+#body h1{
+	margin: 10px;
+	padding: 0px;
+	width: 100%;
+	background: #339966;
+	border: solid black 1px;
+}
+
+#body p{
+	text-align: justify;
+	padding: 5px;
+	color: #ffffff;
+}
+
+#body img{
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+
+#body .flashObject{
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+
+#sidebar{
+	float: left;
+	width: 220px;
+	margin: 5px;
+}
+
+#footer{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	clear: both;
+	border: solid black 1px;
+	background: #336699;
+}
+
+#fo_science{
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+.sidesection{
+	width: 200px;
+	background: #336699;
+	border: solid 1px black;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+.sidesection h1{
+	text-align: center;
+	margin: 10px;
+	padding: 0px;
+	background: #ff6633;
+	width: 100%;
+	color: #000000;
+	border: solid black 1px;
+}
+.sidesection ul{
+	margin: 0px;
+	padding: 0px;
+	padding-left: 20px;	
+}
+.sidesection a{
+	display: block;
+	width: 100%;
+}
